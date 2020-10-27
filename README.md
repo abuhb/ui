@@ -5,7 +5,7 @@ Updated: 27/10/2020 - JJ
 <p>Bootstrap is our preffered CSS framework for front end.  V4.5.3 is the production version as of 27/10/20.</p>
 <p>If you want to add all css and scripts please see <a href="#kitchen-sink">Kitchen Sink</a>.
 <p>Add this line of code inside your <code>&lt;head&gt;</code> section;</p>
-<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://abuhb.github.io/ui/bootstrap-4.5.3-dist/css/bootstrap.css&quot;&gt;</code>
+<p><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://abuhb.github.io/ui/bootstrap-4.5.3-dist/css/bootstrap.css&quot;&gt;</code></p>
 <p>Add this script <b>just above</b> <code>&lt;/body&gt;</code> tag.</p>
 <code>code</code>
 <ul>
