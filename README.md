@@ -14,7 +14,7 @@ Updated: 27/10/2020 - JJ
 <hr>
 
 <h2>Font Awesome</h2>
-<p>Font Awesome provides an excellent range of icons which can be searched at https://fontawesome.com/.</p>
+<p>Font Awesome provides an excellent range of icons.</p>
 <p>Add this script <b>just above</b> <code>&lt;/body&gt;</code> tag.</p>
 <code>&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;</code>
 <ul>
@@ -25,7 +25,7 @@ Updated: 27/10/2020 - JJ
 <h2>NHS Colours</h2>
 <p>NHS Colours are a design standard that we use alongside Bootstrap.</p>
 <p>Add this line of code inside your <code>&lt;head&gt;</code> section;</p>
-<code>code</code>
+<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://abuhb.github.io/ui/nhs-colours.css&quot;&gt;</code>
 <ul>
 <li><a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/">Colour Usage Guidance</a></li>
 </ul>
