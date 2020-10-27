@@ -33,6 +33,7 @@ Updated: 27/10/2020 - JJ
 
 <h2>Kitchen Sink</h2>
 <p>This will add Bootstrap, FontAwesome and NHS Colours to your site;</p>
-<h3>&lt;head&gt;</h3>
-
-<code>x</code>
+<h3>Inside &lt;head&gt;</h3>
+<code>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://abuhb.github.io/ui/bootstrap-4.5.3-dist/css/bootstrap.css&quot;&gt;<br />
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://abuhb.github.io/ui/nhs-colours.css&quot;&gt;</code>
+<h3>Above &lt;/body&gt;</h3>
