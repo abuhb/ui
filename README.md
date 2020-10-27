@@ -9,4 +9,7 @@ UI Standards
 <h2>Font Awesome</h2>
 <p>Font Awesome provides an excellent range of icons which can be searched at https://fontawesome.com/.</p>
 <p>Add this script just above &lt;/body&gt;.</p>
-<code>Script</code>
+<code>&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;</code>
+<hr>
+<h2>NHS Colours</h2>
+<p>NHS Colours are a design standard that we use alongside Bootstrap.  Guiddance on usage; https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/
