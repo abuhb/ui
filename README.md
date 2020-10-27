@@ -24,5 +24,5 @@ UI Standards
 <p>Add this line of code to your <code>&lt;head&gt;</code> section;</p>
 <code>code</code>
 <ul>
-<li><a href="www.england.nhs.uk/nhsidentity/identity-guidelines/colours/">Colour Usage Guidance</a></li>
+<li><a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/">Colour Usage Guidance</a></li>
 </ul>
