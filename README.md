@@ -39,6 +39,7 @@ Updated: 27/10/2020 - JJ
 <h3>Above &lt;/body&gt;</h3>
 <p>
 <code>&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;<br />
+
 &lt;script src=&quot;https://abuhb.github.io/ui/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;<br />
 <br />
 </code></p>
