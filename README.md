@@ -34,7 +34,7 @@ Updated: 27/10/2020 - JJ
 <h2>Jquery</h2>
 <p>We used Jquery to support bootstrap and enable some advanced features.</p>
 <p>Add this script <b>just above</b> <code>&lt;/body&gt;</code> tag.</p>
-<code>&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;</code>
+<code>&lt;script defer src=&quot;https://abuhb.github.io/ui/jquery-3.5.1.min.js&quot;&gt;&lt;/script&gt;</code>
 <hr>
 
 
