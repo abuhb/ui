@@ -31,6 +31,13 @@ Updated: 27/10/2020 - JJ
 </ul>
 <hr>
 
+<h2>Jquery</h2>
+<p>We used Jquery to support bootstrap and enable some advanced features.</p>
+<p>Add this script <b>just above</b> <code>&lt;/body&gt;</code> tag.</p>
+<code>&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;</code>
+<hr>
+
+
 <h2>Kitchen Sink</h2>
 <p>This will add Bootstrap, FontAwesome and NHS Colours to your site;</p>
 <h3>Inside &lt;head&gt;</h3>
@@ -38,8 +45,12 @@ Updated: 27/10/2020 - JJ
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://abuhb.github.io/ui/nhs-colours.css&quot;&gt;</code>
 <h3>Above &lt;/body&gt;</h3>
 <p>
-<code>&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;<br />
+<code>
+
+&lt;script defer src=&quot;https://abuhb.github.io/ui/fontawesome/js/all.js&quot;&gt;&lt;/script&gt;<br />
+
+&lt;script defer src=&quot;https://abuhb.github.io/ui/jquery-3.5.1.min.js&quot;&gt;&lt;/script&gt;<br />
 
 &lt;script src=&quot;https://abuhb.github.io/ui/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;<br />
-<br />
+
 </code></p>
