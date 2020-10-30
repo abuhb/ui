@@ -1,54 +1,24 @@
-/* To Change the Theme colours please change the two attributes bellow */
-
-.theme-bg {
-    background-color: #003087;
-    color: #fff;
+.jsb2 {
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    display: inline-flex;
+    margin: 10px;
 }
 
-.theme2 {
-    background-color: #005EB8;
-    color: #fff;
-}
-
-.theme3 {
-    background-color: #0072CE;
-    color: #fff;
-}
-
-.theme4 {
-    background-color: #00A9CE;
-    color: #fff;
-}
-
-.theme5 {
-    background-color: #00A9CE;
-    color: #fff;
-}
-
-.theme6 {
-    background-color: #425563;
-    color: #fff;
-}
-
-.nhsgreen {
-    background-color: #009639 !important;
-    color: #fff !important;
-}
-
-.theme,
 h2,
 h4 {
-    color: #005EB8;
+    color: #005eb8;
 }
-
-/* End of Theme */
 
 html {
     box-sizing: border-box;
-    font-family: 'Lato';
+    font-family: Lato;
 }
 
-*, *:before, *:after {
+*,
+:after,
+:before {
     box-sizing: inherit;
 }
 
@@ -58,16 +28,18 @@ html {
 }
 
 main {
-    min-height: Calc(100vh - 258px);
+    min-height: Calc(100vh - 273px);
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
+}
+
+.home {
+    min-height: Calc(100vh - 248px);
 }
 
 .main-nav {
-    background-color: #425563 !important;
     padding: 5px;
     color: #fff;
     height: 50px;
@@ -79,9 +51,10 @@ header {
     padding-right: 10px;
 }
 
-header a, header a:hover {
-    color: #fff;
-}
+    header a,
+    header a:hover {
+        color: #fff;
+    }
 
 footer {
     padding: 15px;
@@ -116,110 +89,131 @@ footer {
     margin-top: 30px;
 }
 
-#rbar a {
+    #rbar a {
         display: block;
         padding: 6px;
         color: #fff;
-}
+    }
 
-#rbar a:hover {
-    color: yellow;
-}
-
-#rbar a:active {
-    color: red;
-}
+        #rbar a:hover {
+            color: #adff2f;
+        }
 
 tlhl {
     color: #98ffff;
 }
 
-.white-link, .white-link:hover {
+.white-link,
+.white-link:hover {
     color: #fff;
 }
-
 
 .hero {
     min-height: 300px;
     height: 40vh;
-    /* background-image: linear-gradient(135deg, #69ff97 10%, #00e4ff 100%); */
+    background-image: linear-gradient(-225deg, #ac32e4 0, #7918f2 48%, #4801ff 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: -16px;
-    margin-right: -10px;
-    margin-top: -20px;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    color: #fff;
 }
 
 .message {
     padding: 10px;
     background-color: #edff21;
+    /* Hide during UX work by changing block to none */
+    display: block;
 }
 
     .message a {
         color: #000;
     }
 
-/* This is needed for ie11 support */
-    @font-face {
-        font-family: 'Lato';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWA.woff) format('woff');
+.icona {
+    color: #0ff;
+}
+
+#ablist_filter {
+    max-height: 400px;
+    overflow: auto;
+}
+
+#ablist_drop {
+    background-color: #E8EAF6;
+}
+
+    #ablist_drop .dropdown-item {
+        padding: 8px;
     }
-    /* Mobile View */
-    @media only screen and (max-width: 700px) {
 
-        header {
-            height: 60px;
-            padding-left: 10px;
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWA.woff) format("woff");
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        height: 60px;
+        padding-left: 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #brand {
+        font-size: 20px;
+        height: 60px;
+    }
+
+    #rightnav {
+        height: 60px;
+        padding-right: 5px;
+    }
+
+    #mainNav {
+        display: none;
+    }
+
+    #mobNav {
+        display: block;
+        opacity: 1;
+        width: 50px;
+    }
+
+    main {
+        height: Calc(100vh - 218px);
+        padding-top: 10px;
+    }
+
+    .home {
+        min-height: Calc(100vh - 0px);
+        padding-top: 0px;
+    }
+
+    #rbar {
+        margin-top: 12px;
+    }
+
+        #rbar .btn {
+            padding: 5px;
         }
 
-        .logo {
-            display: none;
-        }
-
-        #brand {
-            font-size: 20px;
-            height: 60px;
-        }
-
-        #rightnav {
-            height: 60px;
-            padding-right: 5px;
-        }
-
-        #mainNav {
-            display: none;
-        }
-
-        #mobNav {
+        #rbar svg {
+            height: 20px;
+            width: 20px;
             display: block;
-            opacity: 1;
-            width: 50px;
         }
 
-        main {
-            height: Calc(100vh - 175px);
-            padding-top: 10px;
-        }
-
-        #rbar {
-            margin-top: 12px;
-        }
-
-            #rbar .btn {
-                padding: 5px;
-            }
-
-            #rbar svg {
-                height: 20px;
-                width: 20px;
-                display: block;
-            }
-        .message {
-            font-size: 0.8em;
-            padding:5px;
-        }
+    .message {
+        font-size: 0.8em;
+        padding: 5px;
     }
+}
