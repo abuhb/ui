@@ -158,6 +158,10 @@ tlhl {
     src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wWA.woff) format("woff");
 }
 
+/* Fix biglist button default to full screen width */
+.btn-group > .btn, .btn-group-vertical > .btn {
+    flex: none;
+
 @media only screen and (max-width: 700px) {
     header {
         height: 60px;
